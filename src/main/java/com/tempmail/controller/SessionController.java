@@ -33,7 +33,7 @@ public class SessionController {
 		 * logger.info("Using secret: {}", rawSecret);
 		 */
 		String token = jwtTokenUtil.generateToken(sessionToken);
-		logger.info("Generated token: {}", token);
+//		logger.info("Generated token: {}", token);
 		return of;
 	}
 
